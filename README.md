@@ -2,3 +2,5 @@
 CIS 9440 Assignment 1 GIT repo
 
 This repo contains files for Assignment 1. There is a dictionary file (excel that contains required links and data dictionary). There are also a .py and .ipynb file for the script and view from jupyter notebook.
+
+Data is stored in AWS Storage S3 and credentials to access it / post data to it are already in the python script. 
