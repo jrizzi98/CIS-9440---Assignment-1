@@ -13,3 +13,6 @@ Contents Present:
 1. Data Sourcing - Web API Link, Link to All Data Sources - both in Excel Workbook. Scripts - both .py and .ipynb notebooks that pull data. Git repository (here)
 2. Storage - Link to S3 Storage, Data stored in orderly fashion in s3 in raw folder following AWS s3 best practices, updates scripts to include posting data to storage. Script is same for Data Sourcing and Storage steps.
 3. Modeling - Script creating fact and dimension tables with surrogate key. Modeling done with AWS Postgres connections using python. New scripts posted and updated from parts 1 and 2 to iclude Modeling. Lucidchart Data Model documented showing the fact table and the dimension tables included as well.
+
+# CIS-9440---Assignment-2
+CIS 9440 Assignment 2 GIT repo
