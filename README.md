@@ -16,3 +16,34 @@ Contents Present:
 
 # CIS-9440---Assignment-2
 CIS 9440 Assignment 2 GIT repo
+
+This repo contains files for Assignment 2. It includes updated SQL scripts, Python scripts, data dictionary, and visualization links. Work was completed in Google BigQuery for transformation and modeling, with outputs connected to AWS QuickSight and Tableau for serving data.
+Data is stored in Google BigQuery and AWS S3. Credentials for access and posting data are already embedded in the Python API script for CSV export.
+
+Contents Present
+Transformation
+• 	Data Transformation in BigQuery
+• 	Unified date formats - Split dates into Year, Quarter, Month, Day, Hour for.
+• 	Removed NULL values for taxpayer, permit, and location identifiers.
+• 	Removed duplicates using  and surrogate keys.
+• 	Validated fields against reference tables (currency, state, ZIP).
+• 	Correct data types applied.
+• 	SQL scripts finalized and uploaded.
+• 	Data mapping and dictionary workbook updated.
+
+Modeling
+• 	Data Warehouse Modeling in BigQuery
+• 	Star schema documented with fact and dimension tables.
+• 	Surrogate keys and relationships defined.
+• 	SQL scripts for schema creation included.
+• 	Fact and dimension tables populated with transformed data.
+• 	Warehouse accessible via BigQuery console and shared datasets.
+
+Serving Data
+• 	AWS QuickSight Dashboard - pdf
+• 	Visuals created: Pie Chart, Column Chart, Line Chart, Heat Map.
+• 	Interactive filtering by date and dimension applied.
+• 	PDF export attached.
+• 	Dashboard link: https://us-east-1.quicksight.aws.amazon.com/sn/accounts/005423366148/dashboards/1f8022bb-61ab-4ec3-948d-2b2176ca4ca1?directory_alias=jrizzi-CIS9440
+• 	Python API Script - Generates CSV export for analysts directly from BigQuery.
+• 	Tableau Workbook
