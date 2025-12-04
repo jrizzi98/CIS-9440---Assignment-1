@@ -44,5 +44,6 @@ Serving Data
 • 	Visuals created: Pie Chart, Column Chart, Line Chart, Heat Map.
 • 	Interactive filtering by date and dimension applied.
 • 	PDF export attached.
+• 	API using python script that will generate data in a CSV format
 • 	Dashboard link: https://us-east-1.quicksight.aws.amazon.com/sn/accounts/005423366148/dashboards/1f8022bb-61ab-4ec3-948d-2b2176ca4ca1?directory_alias=jrizzi-CIS9440
 • 	Tableau Workbook
